@@ -1,0 +1,15 @@
+proxies:
+- name: "BIZNET~\U0001F1EE\U0001F1E9 = 0111"
+  type: trojan
+  server: 104.18.11.39
+  port: 443
+  password: e09e5a30-59b2-11ed-85ab-1239d0255272
+  udp: true
+  sni: id5-trojan.bonds.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id5-trojan.bonds.id
+  interface-name: eth1
