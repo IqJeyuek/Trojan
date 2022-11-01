@@ -1,5 +1,5 @@
 proxies:
-- name: "BIZNET~\U0001F1EE\U0001F1E9 = 0111"
+- name: "Test Github"
   type: trojan
   server: 104.18.11.39
   port: 443
